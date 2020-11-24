@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendedGames.WebApplication", "LendedGames.WebApplication\LendedGames.WebApplication.csproj", "{8C4F976D-FE63-41EC-A88D-D575AAE6E3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendedGames.UnitaryTests", "tests\LendedGames.UnitaryTests\LendedGames.UnitaryTests.csproj", "{16CE574F-CAAF-41A9-A192-EB12CFC73795}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{33F3A2E0-F772-4AB1-8D8C-64789AE9BE8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C4F976D-FE63-41EC-A88D-D575AAE6E3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4F976D-FE63-41EC-A88D-D575AAE6E3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4F976D-FE63-41EC-A88D-D575AAE6E3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4F976D-FE63-41EC-A88D-D575AAE6E3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CE574F-CAAF-41A9-A192-EB12CFC73795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CE574F-CAAF-41A9-A192-EB12CFC73795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CE574F-CAAF-41A9-A192-EB12CFC73795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CE574F-CAAF-41A9-A192-EB12CFC73795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16CE574F-CAAF-41A9-A192-EB12CFC73795} = {33F3A2E0-F772-4AB1-8D8C-64789AE9BE8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2B066CB-8C17-4A64-BED4-628D0D4D1B44}
+	EndGlobalSection
+EndGlobal
